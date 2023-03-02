@@ -7,7 +7,7 @@ phases:
     commands:
       - mvn -v
       - mvn compile
-      - mvn test -P sample-test
+      - mvn test -P sample-local-test
 artifacts:
   files:
     - ./**/*  
